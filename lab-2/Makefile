@@ -1,4 +1,4 @@
-CC	= arm-linux-gnueabihf-gcc
+CC	= arm-linux-gnueabihf-gcc-4.7
 CFLAGS	= -pthread -static
 
 objects = atomic.o mutex.o
